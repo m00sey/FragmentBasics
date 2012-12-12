@@ -1,9 +1,0 @@
-# view large/res/layout-large/news_articles.xml #generated:29
--keep class com.example.android.fragments.ArticleFragment { <init>(...); }
-
-# view large/res/layout-large/news_articles.xml #generated:23
--keep class com.example.android.fragments.HeadlinesFragment { <init>(...); }
-
-# view AndroidManifest.xml #generated:28
--keep class com.example.android.fragments.MainActivity { <init>(...); }
-
