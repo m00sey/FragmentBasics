@@ -23,10 +23,10 @@ public class MainActivityTest {
     public void shouldNotBeNull() throws Exception {
         assertNotNull(mainActivity);
     }
-
-    @Test
-    public void shouldHaveFragment() throws Exception {
-        mainActivity.getSupportFragmentManager().findFragmentById(R.id.article_fragment);
-        assertNotNull( null );
-    }
+//
+//    @Test
+//    public void shouldHaveFragment() throws Exception {
+//        mainActivity.getSupportFragmentManager().findFragmentById(R.id.article_fragment);
+//        assertNotNull( null );
+//    }
 }

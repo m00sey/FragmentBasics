@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>android</artifactId>
-            <version>2.2.1</version>
+            <version>4.1.1.4</version>
             <scope>provided</scope>
         </dependency>
 
@@ -51,7 +51,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <sdk>
-                        <platform>16</platform>
+                        <platform>11</platform>
                     </sdk>
                 </configuration>
                 <extensions>true</extensions>
