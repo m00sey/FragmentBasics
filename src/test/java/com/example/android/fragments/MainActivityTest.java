@@ -1,5 +1,6 @@
 package com.example.android.fragments;
 
+import android.content.Intent;
 import com.xtremelabs.robolectric.RobolectricTestRunner;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,6 +17,7 @@ public class MainActivityTest {
     public void setUp() throws Exception
     {
         mainActivity = new MainActivity();
+        mainActivity.setIntent(new Intent());
         mainActivity.onCreate( null );
     }
 
