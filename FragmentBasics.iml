@@ -60,10 +60,12 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/test/robolectric-1.0-jar-with-dependencies.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/test/robolectric-0.1-SNAPSHOT-jar-with-dependencies.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/libs/test/robolectric-0.1-SNAPSHOT-jar-with-dependencies.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
