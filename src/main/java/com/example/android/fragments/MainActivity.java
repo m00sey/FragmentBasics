@@ -15,11 +15,12 @@
  */
 package com.example.android.fragments;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 
-public class MainActivity extends FragmentActivity 
+public class MainActivity extends FragmentActivity
         implements HeadlinesFragment.OnHeadlineSelectedListener {
 
     /** Called when the activity is first created. */
@@ -38,24 +39,13 @@ public class MainActivity extends FragmentActivity
             if (savedInstanceState != null) {
                 return;
             }
-
-            // Create an instance of ExampleFragment
-            HeadlinesFragment firstFragment = new HeadlinesFragment();
-
-            // In case this activity was started with special instructions from an Intent,
-            // pass the Intent's extras to the fragment as arguments
-            firstFragment.setArguments(getIntent().getExtras());
-
-            // Add the fragment to the 'fragment_container' FrameLayout
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.fragment_container, firstFragment).commit();
         }
     }
 
     public void onArticleSelected(int position) {
-        // The user selected the headline of an article from the HeadlinesFragment
-
-        // Capture the article fragment from the activity layout
+//        The user selected the headline of an article from the HeadlinesFragment
+//
+//        Capture the article fragment from the activity layout
         ArticleFragment articleFrag = (ArticleFragment)
                 getSupportFragmentManager().findFragmentById(R.id.article_fragment);
 
